@@ -14,7 +14,7 @@ enum UserRoles {
   guest
 }
 
-model user {
+model users {
   id         String    @id
   role       UserRoles
   email      String
@@ -28,4 +28,15 @@ model user {
   removedAt  DateTime?
 
   @@index([provider, token])
+}
+
+model images {
+  id        String    @id
+  src       String
+  hash      String
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @default(now()) @updatedAt
+  removedAt DateTime?
+
+  @@index([hash])
 }

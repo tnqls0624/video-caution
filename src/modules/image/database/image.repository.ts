@@ -1,56 +1,52 @@
+import { ImageRepositoryPort } from './image.repository.port';
 import { z } from 'zod';
 import { SqlRepositoryBase } from '@src/libs/db/sql-repository.base';
 import { ConflictException, Inject, Injectable, Logger } from '@nestjs/common';
 import { EventEmitter2 } from '@nestjs/event-emitter';
-import { Prisma, PrismaClient, UserRoles } from '@prisma/client';
+import { Prisma, PrismaClient } from '@prisma/client';
 import { RequestContextService } from '@libs/application/context/AppRequestContext';
 import { PRISMA_CLIENT } from '@libs/db/prisma.di-tokens';
 import { None, Option, Some } from 'oxide.ts';
 import { PrismaClientKnownRequestError } from '@prisma/client/runtime/library';
-import { NotFoundException } from '@libs/exceptions';
-import { UserEntity } from '@modules/user/domain/user.entity';
-import { UserMapper } from '@modules/user/user.mapper';
-import { UserRepositoryPort } from '@modules/user/database/user.repository.port';
+import { ImageEntity } from '@modules/image/domain/image.entity';
+import { ImageMapper } from '@modules/image/image.mapper';
 
 /**
  * Runtime validation of user object for extra safety (in case database schema changes).
  * If you prefer to avoid performance penalty of validation, use interfaces instead.
  */
-export const userSchema = z.object({
+export const imageSchema = z.object({
   id: z.string().uuid(),
   createdAt: z.preprocess((val: any) => new Date(val), z.date()),
   updatedAt: z.preprocess((val: any) => new Date(val), z.date()),
-  email: z.string().email(),
-  country: z.string().min(1).max(255),
-  postalCode: z.string().min(1).max(20),
-  street: z.string().min(1).max(255),
-  role: z.nativeEnum(UserRoles),
+  src: z.string(),
+  hash: z.string(),
 });
 
-export type UserModel = z.TypeOf<typeof userSchema>;
+export type ImageModel = z.TypeOf<typeof imageSchema>;
 
 /**
  *  Repository is used for retrieving/saving domain entities
  * */
 @Injectable()
-export class UserRepository
-  extends SqlRepositoryBase<UserEntity, UserModel>
-  implements UserRepositoryPort
+export class ImageRepository
+  extends SqlRepositoryBase<ImageEntity, ImageModel>
+  implements ImageRepositoryPort
 {
-  protected tableName = 'users';
+  protected tableName = 'images';
 
-  protected schema = userSchema;
+  protected schema = imageSchema;
 
   constructor(
     @Inject(PRISMA_CLIENT) prisma: PrismaClient,
-    mapper: UserMapper,
+    mapper: ImageMapper,
     eventEmitter: EventEmitter2,
   ) {
-    super(prisma, mapper, eventEmitter, new Logger(UserRepository.name));
+    super(prisma, mapper, eventEmitter, new Logger(ImageRepository.name));
   }
 
-  async findOneById(id: string): Promise<Option<UserEntity>> {
-    const result = await this.prisma.users.findFirst({
+  async findOneById(id: string): Promise<Option<ImageEntity>> {
+    const result = await this.prisma.images.findFirst({
       where: {
         id,
       },
@@ -90,7 +86,7 @@ export class UserRepository
   // }
 
   // async insert(entity: UserEntity): Promise<UserEntity | null> {
-  async insert(entity: UserEntity): Promise<Prisma.BatchPayload | undefined> {
+  async insert(entity: ImageEntity): Promise<Prisma.BatchPayload | undefined> {
     try {
       this.logger.debug(
         `[${RequestContextService.getRequestId()}] creating entities ${
@@ -101,7 +97,7 @@ export class UserRepository
       const tx = RequestContextService.getTransactionConnection();
       const entities = Array.isArray(entity) ? entity : [entity];
       const records = entities.map(this.mapper.toPersistence);
-      return await tx?.users.createMany({
+      return await tx?.images.createMany({
         data: records,
       });
     } catch (error: any) {
@@ -115,62 +111,6 @@ export class UserRepository
             (error as any).meta.target
           } request error`,
         );
-      }
-      throw error;
-    }
-  }
-
-  async delete(entity: UserEntity): Promise<boolean> {
-    try {
-      this.logger.debug(
-        `[${RequestContextService.getRequestId()}] deleting entities ${
-          entity.id
-        } from ${this.tableName}`,
-      );
-      const record = this.mapper.toPersistence(entity);
-      await this.prisma.users.update({
-        where: {
-          id: record.id,
-        },
-        data: {
-          removedAt: new Date(),
-        },
-      });
-      await entity.publishEvents(this.logger, this.eventEmitter);
-      return true;
-    } catch (error) {
-      if (error instanceof PrismaClientKnownRequestError) {
-        this.logger.debug(
-          `[${RequestContextService.getRequestId()}] ${error.message}`,
-        );
-        throw new NotFoundException('Record not found');
-      }
-      throw error;
-    }
-  }
-
-  async updateAddress(entity: UserEntity): Promise<boolean> {
-    try {
-      this.logger.debug(
-        `[${RequestContextService.getRequestId()}] update Address entities ${
-          entity.id
-        } from ${this.tableName}`,
-      );
-      const record = this.mapper.toPersistence(entity);
-      await this.prisma.users.update({
-        where: {
-          id: record.id,
-        },
-        data: record,
-      });
-      await entity.publishEvents(this.logger, this.eventEmitter);
-      return true;
-    } catch (error) {
-      if (error instanceof PrismaClientKnownRequestError) {
-        this.logger.debug(
-          `[${RequestContextService.getRequestId()}] ${error.message}`,
-        );
-        throw new NotFoundException('Record not found');
       }
       throw error;
     }

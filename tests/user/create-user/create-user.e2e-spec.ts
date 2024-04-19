@@ -10,7 +10,7 @@ import {
 import { ApiClient } from '@tests/test-utils/ApiClient';
 import { iReceiveAnErrorWithStatusCode } from '@tests/shared/shared-steps';
 
-const feature = loadFeature('tests/user/create-user/create-user.feature');
+const feature = loadFeature('tests/user/create-image/create-image.feature');
 
 /**
  * e2e test implementing a Gherkin feature file

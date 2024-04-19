@@ -22,7 +22,7 @@ export class FindUsersQueryHandler implements IQueryHandler {
   ): Promise<Result<Paginated<UserModel>, Error>> {
     const { limit, orderBy, page } = query;
     const [records, rowCount] = await Promise.all([
-      this.prisma.user.findMany({
+      this.prisma.users.findMany({
         select: {
           id: true,
           email: true,
@@ -40,7 +40,7 @@ export class FindUsersQueryHandler implements IQueryHandler {
         take: limit,
         orderBy: orderBy.field ? { id: orderBy.param } : {},
       }),
-      this.prisma.user.count({
+      this.prisma.users.count({
         where: {
           removedAt: null,
         },

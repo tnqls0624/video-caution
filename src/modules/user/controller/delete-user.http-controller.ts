@@ -9,10 +9,11 @@ import { routesV1 } from '@config/app.routes';
 import { CommandBus } from '@nestjs/cqrs';
 import { match, Result } from 'oxide.ts';
 import { NotFoundException } from '@libs/exceptions';
-import { ApiOperation, ApiParam, ApiResponse } from '@nestjs/swagger';
+import { ApiOperation, ApiParam, ApiResponse, ApiTags } from '@nestjs/swagger';
 import { ApiErrorResponse } from '@libs/api/api-error.response';
 import { DeleteUserCommand } from '@modules/user/commands/delete-user/delete-user.command';
 
+@ApiTags('users')
 @Controller(routesV1.version)
 export class DeleteUserHttpController {
   constructor(private readonly commandBus: CommandBus) {}

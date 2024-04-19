@@ -21,7 +21,7 @@ export class FindUserQueryHandler implements IQueryHandler {
     query: FindUserQuery,
   ): Promise<Result<UserModel, UserNotFoundError>> {
     const { id } = query;
-    const found = await this.prisma.user.findFirst({
+    const found = await this.prisma.users.findFirst({
       select: {
         id: true,
         email: true,

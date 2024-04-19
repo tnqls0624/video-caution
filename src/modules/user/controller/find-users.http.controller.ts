@@ -1,7 +1,7 @@
 import { Controller, Get, HttpStatus, Query } from '@nestjs/common';
 import { routesV1 } from '@config/app.routes';
 import { QueryBus } from '@nestjs/cqrs';
-import { ApiOperation, ApiResponse } from '@nestjs/swagger';
+import { ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
 import { Result } from 'oxide.ts';
 import { Paginated } from '@libs/ddd';
 import { UserPaginatedResponseDto } from '../dtos/user.paginated.response.dto';
@@ -10,6 +10,7 @@ import { UserModel } from '../database/user.repository';
 import { ResponseBase } from '@libs/api/response.base';
 import { FindUsersQuery } from '@modules/user/queries/find-users/find-users.query';
 
+@ApiTags('users')
 @Controller(routesV1.version)
 export class FindUsersHttpController {
   constructor(private readonly queryBus: QueryBus) {}

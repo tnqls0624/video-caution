@@ -243,18 +243,18 @@
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M145.67,-47.57C154.01,-44.1 163.81,-40.42 173,-38 219.43,-25.74 232.1,-26.47 280,-23 457.09,-10.18 503.77,3.42 679.5,-22 833.15,-44.23 859.25,-121 1014.5,-121 1014.5,-121 1014.5,-121 1458.5,-121 1582.12,-121 1649.23,-112.34 1721,-213 1733.59,-230.66 1716.75,-1757.09 1729,-1775 1733.93,-1782.2 1740.87,-1787.67 1748.58,-1791.83"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1747.44,-1793.61 1753.76,-1794.28 1749.23,-1789.82 1747.44,-1793.61"/>
 </g>
-<!-- src/modules/user/user.module.ts -->
+<!-- src/modules/user/image.module.ts -->
 <g id="node5" class="node">
-<title>src/modules/user/user.module.ts</title>
-<g id="a_node5"><a xlink:href="src/modules/user/user.module.ts" xlink:title="user.module.ts">
+<title>src/modules/user/image.module.ts</title>
+<g id="a_node5"><a xlink:href="src/modules/user/image.module.ts" xlink:title="image.module.ts">
 <path fill="#ddfeff" stroke="black" d="M266,-673C266,-673 195,-673 195,-673 192,-673 189,-670 189,-667 189,-667 189,-661 189,-661 189,-658 192,-655 195,-655 195,-655 266,-655 266,-655 269,-655 272,-658 272,-661 272,-661 272,-667 272,-667 272,-670 269,-673 266,-673"/>
-<text text-anchor="start" x="197" y="-661.8" font-family="Helvetica,sans-Serif" font-size="9.00">user.module.ts</text>
+<text text-anchor="start" x="197" y="-661.8" font-family="Helvetica,sans-Serif" font-size="9.00">image.module.ts</text>
 </a>
 </g>
 </g>
-<!-- src/app.module.ts&#45;&gt;src/modules/user/user.module.ts -->
+<!-- src/app.module.ts&#45;&gt;src/modules/user/image.module.ts -->
 <g id="edge4" class="edge">
-<title>src/app.module.ts&#45;&gt;src/modules/user/user.module.ts</title>
+<title>src/app.module.ts&#45;&gt;src/modules/user/image.module.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M125.1,-66.46C125.97,-138.97 133.09,-604.81 173,-651 175.2,-653.55 177.79,-655.65 180.64,-657.39"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="179.59,-659.21 185.91,-659.87 181.38,-655.41 179.59,-659.21"/>
 </g>
@@ -348,24 +348,24 @@
 </a>
 </g>
 </g>
-<!-- src/modules/user/user.module.ts&#45;&gt;src/modules/user/commands/create&#45;user/create&#45;user.cli.controller.ts -->
+<!-- src/modules/user/image.module.ts&#45;&gt;src/modules/user/commands/create&#45;user/create&#45;user.cli.controller.ts -->
 <g id="edge145" class="edge">
-<title>src/modules/user/user.module.ts&#45;&gt;src/modules/user/commands/create&#45;user/create&#45;user.cli.controller.ts</title>
+<title>src/modules/user/image.module.ts&#45;&gt;src/modules/user/commands/create&#45;user/create&#45;user.cli.controller.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M268.26,-654.72C269.63,-653.61 270.89,-652.38 272,-651 283.36,-636.93 267.55,-583.12 280,-570 286.64,-563 295.06,-558.33 304.17,-555.31"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="304.54,-557.39 309.78,-553.78 303.44,-553.34 304.54,-557.39"/>
 </g>
 <!-- src/modules/user/commands/create&#45;user/create&#45;user.http.controller.ts -->
 <g id="node46" class="node">
 <title>src/modules/user/commands/create&#45;user/create&#45;user.http.controller.ts</title>
-<g id="a_node46"><a xlink:href="src/modules/user/commands/create-user/create-user.http.controller.ts" xlink:title="create&#45;user.http.controller.ts">
+<g id="a_node46"><a xlink:href="src/modules/user/commands/create-user/create-image.http.controller.ts" xlink:title="create&#45;user.http.controller.ts">
 <path fill="#ddfeff" stroke="black" d="M446,-624C446,-624 314,-624 314,-624 311,-624 308,-621 308,-618 308,-618 308,-612 308,-612 308,-609 311,-606 314,-606 314,-606 446,-606 446,-606 449,-606 452,-609 452,-612 452,-612 452,-618 452,-618 452,-621 449,-624 446,-624"/>
 <text text-anchor="start" x="316" y="-612.8" font-family="Helvetica,sans-Serif" font-size="9.00">create&#45;user.http.controller.ts</text>
 </a>
 </g>
 </g>
-<!-- src/modules/user/user.module.ts&#45;&gt;src/modules/user/commands/create&#45;user/create&#45;user.http.controller.ts -->
+<!-- src/modules/user/image.module.ts&#45;&gt;src/modules/user/commands/create&#45;user/create&#45;user.http.controller.ts -->
 <g id="edge146" class="edge">
-<title>src/modules/user/user.module.ts&#45;&gt;src/modules/user/commands/create&#45;user/create&#45;user.http.controller.ts</title>
+<title>src/modules/user/image.module.ts&#45;&gt;src/modules/user/commands/create&#45;user/create&#45;user.http.controller.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M267.46,-654.57C269.08,-653.51 270.61,-652.32 272,-651 279.25,-644.13 272.23,-636.27 280,-630 285.74,-625.37 292.29,-621.87 299.23,-619.24"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="299.6,-621.33 304.66,-617.48 298.3,-617.33 299.6,-621.33"/>
 </g>
@@ -378,9 +378,9 @@
 </a>
 </g>
 </g>
-<!-- src/modules/user/user.module.ts&#45;&gt;src/modules/user/commands/create&#45;user/create&#45;user.message.controller.ts -->
+<!-- src/modules/user/image.module.ts&#45;&gt;src/modules/user/commands/create&#45;user/create&#45;user.message.controller.ts -->
 <g id="edge147" class="edge">
-<title>src/modules/user/user.module.ts&#45;&gt;src/modules/user/commands/create&#45;user/create&#45;user.message.controller.ts</title>
+<title>src/modules/user/image.module.ts&#45;&gt;src/modules/user/commands/create&#45;user/create&#45;user.message.controller.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M272.2,-658.76C279.85,-657.77 288.11,-656.71 296.52,-655.62"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="296.64,-657.73 302.32,-654.88 296.1,-653.56 296.64,-657.73"/>
 </g>
@@ -393,9 +393,9 @@
 </a>
 </g>
 </g>
-<!-- src/modules/user/user.module.ts&#45;&gt;src/modules/user/commands/create&#45;user/create&#45;user.service.ts -->
+<!-- src/modules/user/image.module.ts&#45;&gt;src/modules/user/commands/create&#45;user/create&#45;user.service.ts -->
 <g id="edge148" class="edge">
-<title>src/modules/user/user.module.ts&#45;&gt;src/modules/user/commands/create&#45;user/create&#45;user.service.ts</title>
+<title>src/modules/user/image.module.ts&#45;&gt;src/modules/user/commands/create&#45;user/create&#45;user.service.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M268.16,-654.64C269.56,-653.55 270.85,-652.35 272,-651 286.92,-633.57 263.73,-616.18 280,-600 289.4,-590.65 301.99,-585.54 315.04,-582.97"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="315.05,-585.09 320.65,-582.1 314.4,-580.94 315.05,-585.09"/>
 </g>
@@ -408,9 +408,9 @@
 </a>
 </g>
 </g>
-<!-- src/modules/user/user.module.ts&#45;&gt;src/modules/user/user.di&#45;tokens.ts -->
+<!-- src/modules/user/image.module.ts&#45;&gt;src/modules/user/user.di&#45;tokens.ts -->
 <g id="edge156" class="edge">
-<title>src/modules/user/user.module.ts&#45;&gt;src/modules/user/user.di&#45;tokens.ts</title>
+<title>src/modules/user/image.module.ts&#45;&gt;src/modules/user/user.di&#45;tokens.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M268.68,-654.51C269.9,-653.46 271.01,-652.29 272,-651 295.78,-619.9 256.59,-506.38 280,-475 381.3,-339.21 621.69,-383.6 718.27,-408.27"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="717.63,-410.27 723.96,-409.75 718.69,-406.21 717.63,-410.27"/>
 </g>
@@ -423,9 +423,9 @@
 </a>
 </g>
 </g>
-<!-- src/modules/user/user.module.ts&#45;&gt;src/modules/user/commands/create&#45;user/graphql&#45;example/create&#45;user.graphql&#45;resolver.ts -->
+<!-- src/modules/user/image.module.ts&#45;&gt;src/modules/user/commands/create&#45;user/graphql&#45;example/create&#45;user.graphql&#45;resolver.ts -->
 <g id="edge149" class="edge">
-<title>src/modules/user/user.module.ts&#45;&gt;src/modules/user/commands/create&#45;user/graphql&#45;example/create&#45;user.graphql&#45;resolver.ts</title>
+<title>src/modules/user/image.module.ts&#45;&gt;src/modules/user/commands/create&#45;user/graphql&#45;example/create&#45;user.graphql&#45;resolver.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M272.2,-669.24C279.85,-670.23 288.11,-671.29 296.52,-672.38"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="296.1,-674.44 302.32,-673.12 296.64,-670.27 296.1,-674.44"/>
 </g>
@@ -438,9 +438,9 @@
 </a>
 </g>
 </g>
-<!-- src/modules/user/user.module.ts&#45;&gt;src/modules/user/commands/delete&#45;user/delete&#45;user.http&#45;controller.ts -->
+<!-- src/modules/user/image.module.ts&#45;&gt;src/modules/user/commands/delete&#45;user/delete&#45;user.http&#45;controller.ts -->
 <g id="edge150" class="edge">
-<title>src/modules/user/user.module.ts&#45;&gt;src/modules/user/commands/delete&#45;user/delete&#45;user.http&#45;controller.ts</title>
+<title>src/modules/user/image.module.ts&#45;&gt;src/modules/user/commands/delete&#45;user/delete&#45;user.http&#45;controller.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M268.31,-654.76C269.66,-653.64 270.91,-652.4 272,-651 287.93,-630.66 264.82,-555.91 280,-535 289.33,-522.15 303.49,-513.42 318.21,-507.5"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="318.67,-509.56 323.58,-505.53 317.23,-505.62 318.67,-509.56"/>
 </g>
@@ -453,24 +453,24 @@
 </a>
 </g>
 </g>
-<!-- src/modules/user/user.module.ts&#45;&gt;src/modules/user/commands/delete&#45;user/delete&#45;user.service.ts -->
+<!-- src/modules/user/image.module.ts&#45;&gt;src/modules/user/commands/delete&#45;user/delete&#45;user.service.ts -->
 <g id="edge151" class="edge">
-<title>src/modules/user/user.module.ts&#45;&gt;src/modules/user/commands/delete&#45;user/delete&#45;user.service.ts</title>
+<title>src/modules/user/image.module.ts&#45;&gt;src/modules/user/commands/delete&#45;user/delete&#45;user.service.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M268.29,-673.25C269.65,-674.36 270.9,-675.61 272,-677 286.37,-695.19 262.99,-765.25 280,-781 339.35,-835.96 403.88,-837.26 462,-781 481.65,-761.98 454.24,-557.35 470,-535 479.21,-521.94 493.37,-513.14 508.22,-507.22"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="508.75,-509.26 513.67,-505.24 507.32,-505.31 508.75,-509.26"/>
 </g>
-<!-- src/modules/user/database/user.repository.ts -->
+<!-- src/modules/user/database/image.repository.ts -->
 <g id="node60" class="node">
-<title>src/modules/user/database/user.repository.ts</title>
-<g id="a_node60"><a xlink:href="src/modules/user/database/user.repository.ts" xlink:title="user.repository.ts">
+<title>src/modules/user/database/image.repository.ts</title>
+<g id="a_node60"><a xlink:href="src/modules/user/database/image.repository.ts" xlink:title="image.repository.ts">
 <path fill="#ddfeff" stroke="black" d="M612.5,-864C612.5,-864 532.5,-864 532.5,-864 529.5,-864 526.5,-861 526.5,-858 526.5,-858 526.5,-852 526.5,-852 526.5,-849 529.5,-846 532.5,-846 532.5,-846 612.5,-846 612.5,-846 615.5,-846 618.5,-849 618.5,-852 618.5,-852 618.5,-858 618.5,-858 618.5,-861 615.5,-864 612.5,-864"/>
-<text text-anchor="start" x="534.5" y="-852.8" font-family="Helvetica,sans-Serif" font-size="9.00">user.repository.ts</text>
+<text text-anchor="start" x="534.5" y="-852.8" font-family="Helvetica,sans-Serif" font-size="9.00">image.repository.ts</text>
 </a>
 </g>
 </g>
-<!-- src/modules/user/user.module.ts&#45;&gt;src/modules/user/database/user.repository.ts -->
+<!-- src/modules/user/image.module.ts&#45;&gt;src/modules/user/database/image.repository.ts -->
 <g id="edge152" class="edge">
-<title>src/modules/user/user.module.ts&#45;&gt;src/modules/user/database/user.repository.ts</title>
+<title>src/modules/user/image.module.ts&#45;&gt;src/modules/user/database/image.repository.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M268.32,-673.23C269.67,-674.35 270.91,-675.6 272,-677 289.5,-699.49 260.96,-783.79 280,-805 339.1,-870.81 450.65,-870.69 517.31,-863.58"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="517.28,-865.69 523,-862.92 516.8,-861.52 517.28,-865.69"/>
 </g>
@@ -483,9 +483,9 @@
 </a>
 </g>
 </g>
-<!-- src/modules/user/user.module.ts&#45;&gt;src/modules/user/user.mapper.ts -->
+<!-- src/modules/user/image.module.ts&#45;&gt;src/modules/user/user.mapper.ts -->
 <g id="edge157" class="edge">
-<title>src/modules/user/user.module.ts&#45;&gt;src/modules/user/user.mapper.ts</title>
+<title>src/modules/user/image.module.ts&#45;&gt;src/modules/user/user.mapper.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M268.67,-673.5C269.89,-674.55 271.01,-675.71 272,-677 293.95,-705.59 257.57,-810.78 280,-839 337.42,-911.23 455.11,-916.99 522.06,-913.7"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="521.87,-915.82 527.74,-913.38 521.63,-911.62 521.87,-915.82"/>
 </g>
@@ -498,9 +498,9 @@
 </a>
 </g>
 </g>
-<!-- src/modules/user/user.module.ts&#45;&gt;src/modules/user/queries/find&#45;users/find&#45;users.graphql&#45;resolver.ts -->
+<!-- src/modules/user/image.module.ts&#45;&gt;src/modules/user/queries/find&#45;users/find&#45;users.graphql&#45;resolver.ts -->
 <g id="edge153" class="edge">
-<title>src/modules/user/user.module.ts&#45;&gt;src/modules/user/queries/find&#45;users/find&#45;users.graphql&#45;resolver.ts</title>
+<title>src/modules/user/image.module.ts&#45;&gt;src/modules/user/queries/find&#45;users/find&#45;users.graphql&#45;resolver.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M268.72,-673.46C269.93,-674.52 271.03,-675.7 272,-677 285.64,-695.32 264.94,-1070.83 280,-1088 285.03,-1093.73 291.23,-1097.94 298.07,-1100.98"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="297.16,-1102.88 303.51,-1102.98 298.61,-1098.94 297.16,-1102.88"/>
 </g>
@@ -513,9 +513,9 @@
 </a>
 </g>
 </g>
-<!-- src/modules/user/user.module.ts&#45;&gt;src/modules/user/queries/find&#45;users/find&#45;users.query&#45;handler.ts -->
+<!-- src/modules/user/image.module.ts&#45;&gt;src/modules/user/queries/find&#45;users/find&#45;users.query&#45;handler.ts -->
 <g id="edge155" class="edge">
-<title>src/modules/user/user.module.ts&#45;&gt;src/modules/user/queries/find&#45;users/find&#45;users.query&#45;handler.ts</title>
+<title>src/modules/user/image.module.ts&#45;&gt;src/modules/user/queries/find&#45;users/find&#45;users.query&#45;handler.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M268.69,-673.49C269.9,-674.54 271.02,-675.71 272,-677 285.66,-694.97 270.17,-859.68 280,-880 328.45,-980.16 372.26,-989.83 470,-1043 484.23,-1050.74 500.7,-1056.71 516.18,-1061.21"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="515.39,-1063.17 521.74,-1062.75 516.52,-1059.12 515.39,-1063.17"/>
 </g>
@@ -528,9 +528,9 @@
 </a>
 </g>
 </g>
-<!-- src/modules/user/user.module.ts&#45;&gt;src/modules/user/queries/find&#45;users/find&#45;users.http.controller.ts -->
+<!-- src/modules/user/image.module.ts&#45;&gt;src/modules/user/queries/find&#45;users/find&#45;users.http.controller.ts -->
 <g id="edge154" class="edge">
-<title>src/modules/user/user.module.ts&#45;&gt;src/modules/user/queries/find&#45;users/find&#45;users.http.controller.ts</title>
+<title>src/modules/user/image.module.ts&#45;&gt;src/modules/user/queries/find&#45;users/find&#45;users.http.controller.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M268.72,-673.46C269.93,-674.52 271.03,-675.7 272,-677 284.72,-694.06 265.8,-1044.15 280,-1060 285.94,-1066.63 293.49,-1071.13 301.75,-1074.07"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="300.97,-1076.03 307.32,-1075.69 302.14,-1072 300.97,-1076.03"/>
 </g>
@@ -1259,7 +1259,7 @@
 <!-- src/modules/user/commands/create&#45;user/create&#45;user.request.dto.ts -->
 <g id="node47" class="node">
 <title>src/modules/user/commands/create&#45;user/create&#45;user.request.dto.ts</title>
-<g id="a_node47"><a xlink:href="src/modules/user/commands/create-user/create-user.request.dto.ts" xlink:title="create&#45;user.request.dto.ts">
+<g id="a_node47"><a xlink:href="src/modules/user/commands/create-user/create-image.request.dto.ts" xlink:title="create&#45;user.request.dto.ts">
 <path fill="#ddfeff" stroke="black" d="M633,-654C633,-654 512,-654 512,-654 509,-654 506,-651 506,-648 506,-648 506,-642 506,-642 506,-639 509,-636 512,-636 512,-636 633,-636 633,-636 636,-636 639,-639 639,-642 639,-642 639,-648 639,-648 639,-651 636,-654 633,-654"/>
 <text text-anchor="start" x="514" y="-642.8" font-family="Helvetica,sans-Serif" font-size="9.00">create&#45;user.request.dto.ts</text>
 </a>
@@ -1271,24 +1271,24 @@
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M436.04,-624.46C447.27,-626.33 459.01,-628.26 470,-630 478.8,-631.39 488.04,-632.81 497.2,-634.2"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="496.71,-636.25 502.96,-635.06 497.34,-632.09 496.71,-636.25"/>
 </g>
-<!-- src/modules/user/domain/user.errors.ts -->
+<!-- src/modules/user/domain/image.errors.ts -->
 <g id="node48" class="node">
-<title>src/modules/user/domain/user.errors.ts</title>
-<g id="a_node48"><a xlink:href="src/modules/user/domain/user.errors.ts" xlink:title="user.errors.ts">
+<title>src/modules/user/domain/image.errors.ts</title>
+<g id="a_node48"><a xlink:href="src/modules/user/domain/image.errors.ts" xlink:title="image.errors.ts">
 <path fill="#ddfeff" stroke="black" d="M1047,-748C1047,-748 984,-748 984,-748 981,-748 978,-745 978,-742 978,-742 978,-736 978,-736 978,-733 981,-730 984,-730 984,-730 1047,-730 1047,-730 1050,-730 1053,-733 1053,-736 1053,-736 1053,-742 1053,-742 1053,-745 1050,-748 1047,-748"/>
-<text text-anchor="start" x="986" y="-736.8" font-family="Helvetica,sans-Serif" font-size="9.00">user.errors.ts</text>
+<text text-anchor="start" x="986" y="-736.8" font-family="Helvetica,sans-Serif" font-size="9.00">image.errors.ts</text>
 </a>
 </g>
 </g>
-<!-- src/modules/user/commands/create&#45;user/create&#45;user.http.controller.ts&#45;&gt;src/modules/user/domain/user.errors.ts -->
+<!-- src/modules/user/commands/create&#45;user/create&#45;user.http.controller.ts&#45;&gt;src/modules/user/domain/image.errors.ts -->
 <g id="edge68" class="edge">
-<title>src/modules/user/commands/create&#45;user/create&#45;user.http.controller.ts&#45;&gt;src/modules/user/domain/user.errors.ts</title>
+<title>src/modules/user/commands/create&#45;user/create&#45;user.http.controller.ts&#45;&gt;src/modules/user/domain/image.errors.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M452.29,-608.09C455.88,-605.89 459.16,-603.22 462,-600 482.32,-576.96 447.66,-483.08 470,-462 500.69,-433.04 813.49,-455 849.5,-477 944.97,-535.32 994.27,-671.98 1009.36,-721.06"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1007.34,-721.61 1011.06,-726.75 1011.36,-720.4 1007.34,-721.61"/>
 </g>
-<!-- src/modules/user/domain/user.errors.ts&#45;&gt;src/libs/exceptions/index.ts -->
+<!-- src/modules/user/domain/image.errors.ts&#45;&gt;src/libs/exceptions/index.ts -->
 <g id="edge112" class="edge">
-<title>src/modules/user/domain/user.errors.ts&#45;&gt;src/libs/exceptions/index.ts</title>
+<title>src/modules/user/domain/image.errors.ts&#45;&gt;src/libs/exceptions/index.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1053.48,-746.25C1090.42,-755.59 1145.6,-775.69 1173.5,-816 1194.59,-846.47 1160.94,-868.16 1181.5,-899 1258.37,-1014.31 1317.91,-1046 1456.5,-1046 1456.5,-1046 1456.5,-1046 1611.5,-1046 1730.7,-1046 1797.61,-1005.34 1875,-1096 1884.64,-1107.29 1880.39,-1348.39 1883,-1363 1897.21,-1442.65 1934.06,-1532.57 1950.22,-1569.62"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1948.29,-1570.45 1952.63,-1575.1 1952.13,-1568.76 1948.29,-1570.45"/>
 </g>
@@ -1328,9 +1328,9 @@
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M436.36,-593.72C457.02,-596.97 480.74,-600.71 502.48,-604.13"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="502.1,-606.2 508.35,-605.06 502.75,-602.05 502.1,-606.2"/>
 </g>
-<!-- src/modules/user/commands/create&#45;user/create&#45;user.service.ts&#45;&gt;src/modules/user/domain/user.errors.ts -->
+<!-- src/modules/user/commands/create&#45;user/create&#45;user.service.ts&#45;&gt;src/modules/user/domain/image.errors.ts -->
 <g id="edge79" class="edge">
-<title>src/modules/user/commands/create&#45;user/create&#45;user.service.ts&#45;&gt;src/modules/user/domain/user.errors.ts</title>
+<title>src/modules/user/commands/create&#45;user/create&#45;user.service.ts&#45;&gt;src/modules/user/domain/image.errors.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M436.3,-584.8C446.12,-582.21 455.32,-577.65 462,-570 474.15,-556.09 456.66,-416.77 470,-404 530.92,-345.68 777.92,-358.41 849.5,-403 967.6,-476.58 1003.57,-662.12 1012.18,-720.87"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1010.09,-721.09 1012.99,-726.75 1014.25,-720.51 1010.09,-721.09"/>
 </g>
@@ -1340,33 +1340,33 @@
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M436.26,-584.77C446.08,-582.18 455.3,-577.63 462,-570 472.8,-557.71 458.18,-434.31 470,-423 486.61,-407.11 627.33,-412.4 706.29,-416.71"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="706,-418.8 712.11,-417.04 706.24,-414.6 706,-418.8"/>
 </g>
-<!-- src/modules/user/database/user.repository.port.ts -->
+<!-- src/modules/user/database/image.repository.port.ts -->
 <g id="node52" class="node">
-<title>src/modules/user/database/user.repository.port.ts</title>
-<g id="a_node52"><a xlink:href="src/modules/user/database/user.repository.port.ts" xlink:title="user.repository.port.ts">
+<title>src/modules/user/database/image.repository.port.ts</title>
+<g id="a_node52"><a xlink:href="src/modules/user/database/image.repository.port.ts" xlink:title="image.repository.port.ts">
 <path fill="#ddfeff" stroke="black" d="M811.5,-864C811.5,-864 709.5,-864 709.5,-864 706.5,-864 703.5,-861 703.5,-858 703.5,-858 703.5,-852 703.5,-852 703.5,-849 706.5,-846 709.5,-846 709.5,-846 811.5,-846 811.5,-846 814.5,-846 817.5,-849 817.5,-852 817.5,-852 817.5,-858 817.5,-858 817.5,-861 814.5,-864 811.5,-864"/>
-<text text-anchor="start" x="711.5" y="-852.8" font-family="Helvetica,sans-Serif" font-size="9.00">user.repository.port.ts</text>
+<text text-anchor="start" x="711.5" y="-852.8" font-family="Helvetica,sans-Serif" font-size="9.00">image.repository.port.ts</text>
 </a>
 </g>
 </g>
-<!-- src/modules/user/commands/create&#45;user/create&#45;user.service.ts&#45;&gt;src/modules/user/database/user.repository.port.ts -->
+<!-- src/modules/user/commands/create&#45;user/create&#45;user.service.ts&#45;&gt;src/modules/user/database/image.repository.port.ts -->
 <g id="edge77" class="edge">
-<title>src/modules/user/commands/create&#45;user/create&#45;user.service.ts&#45;&gt;src/modules/user/database/user.repository.port.ts</title>
+<title>src/modules/user/commands/create&#45;user/create&#45;user.service.ts&#45;&gt;src/modules/user/database/image.repository.port.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M436.09,-584.61C445.92,-582.03 455.18,-577.53 462,-570 476.22,-554.3 454.4,-489.34 470,-475 504.27,-443.49 643.35,-445.67 679.5,-475 736.88,-521.56 754.65,-767.03 758.57,-836.6"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="756.47,-836.65 758.89,-842.53 760.67,-836.42 756.47,-836.65"/>
 </g>
-<!-- src/modules/user/domain/user.entity.ts -->
+<!-- src/modules/user/domain/image.entity.ts -->
 <g id="node53" class="node">
-<title>src/modules/user/domain/user.entity.ts</title>
-<g id="a_node53"><a xlink:href="src/modules/user/domain/user.entity.ts" xlink:title="user.entity.ts">
+<title>src/modules/user/domain/image.entity.ts</title>
+<g id="a_node53"><a xlink:href="src/modules/user/domain/image.entity.ts" xlink:title="image.entity.ts">
 <path fill="#ddfeff" stroke="black" d="M1046.5,-840C1046.5,-840 984.5,-840 984.5,-840 981.5,-840 978.5,-837 978.5,-834 978.5,-834 978.5,-828 978.5,-828 978.5,-825 981.5,-822 984.5,-822 984.5,-822 1046.5,-822 1046.5,-822 1049.5,-822 1052.5,-825 1052.5,-828 1052.5,-828 1052.5,-834 1052.5,-834 1052.5,-837 1049.5,-840 1046.5,-840"/>
-<text text-anchor="start" x="986.5" y="-828.8" font-family="Helvetica,sans-Serif" font-size="9.00">user.entity.ts</text>
+<text text-anchor="start" x="986.5" y="-828.8" font-family="Helvetica,sans-Serif" font-size="9.00">image.entity.ts</text>
 </a>
 </g>
 </g>
-<!-- src/modules/user/commands/create&#45;user/create&#45;user.service.ts&#45;&gt;src/modules/user/domain/user.entity.ts -->
+<!-- src/modules/user/commands/create&#45;user/create&#45;user.service.ts&#45;&gt;src/modules/user/domain/image.entity.ts -->
 <g id="edge78" class="edge">
-<title>src/modules/user/commands/create&#45;user/create&#45;user.service.ts&#45;&gt;src/modules/user/domain/user.entity.ts</title>
+<title>src/modules/user/commands/create&#45;user/create&#45;user.service.ts&#45;&gt;src/modules/user/domain/image.entity.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M436.32,-584.82C446.14,-582.23 455.33,-577.66 462,-570 475.14,-554.9 455.56,-403.87 470,-390 500.4,-360.78 819.36,-359.51 849.5,-389 864,-403.18 846.58,-736.91 857.5,-754 882.23,-792.73 932.61,-812.58 969.65,-822.33"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="969.02,-824.34 975.35,-823.76 970.04,-820.27 969.02,-824.34"/>
 </g>
@@ -1385,42 +1385,42 @@
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M436.19,-584.71C446.02,-582.12 455.25,-577.59 462,-570 479.91,-549.86 450.45,-467.54 470,-449 491.95,-428.18 984.25,-442 1014.5,-442 1014.5,-442 1014.5,-442 1296,-442 1499.85,-442 1587.2,-763.88 1605.66,-843.4"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1603.54,-843.52 1606.91,-848.91 1607.63,-842.59 1603.54,-843.52"/>
 </g>
-<!-- src/modules/user/database/user.repository.port.ts&#45;&gt;src/libs/ddd/index.ts -->
+<!-- src/modules/user/database/image.repository.port.ts&#45;&gt;src/libs/ddd/index.ts -->
 <g id="edge94" class="edge">
-<title>src/modules/user/database/user.repository.port.ts&#45;&gt;src/libs/ddd/index.ts</title>
+<title>src/modules/user/database/image.repository.port.ts&#45;&gt;src/libs/ddd/index.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M771.95,-864.16C835.59,-919.93 1168.68,-1211.56 1181.5,-1217 1226.18,-1235.97 1365.86,-1201.54 1399,-1237 1411.52,-1250.4 1396.82,-1551.75 1407,-1567 1410.66,-1572.49 1416.03,-1576.62 1421.9,-1579.72"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1420.99,-1581.62 1427.33,-1582.13 1422.69,-1577.78 1420.99,-1581.62"/>
 </g>
-<!-- src/modules/user/database/user.repository.port.ts&#45;&gt;src/modules/user/domain/user.entity.ts -->
+<!-- src/modules/user/database/image.repository.port.ts&#45;&gt;src/modules/user/domain/image.entity.ts -->
 <g id="edge93" class="edge">
-<title>src/modules/user/database/user.repository.port.ts&#45;&gt;src/modules/user/domain/user.entity.ts</title>
+<title>src/modules/user/database/image.repository.port.ts&#45;&gt;src/modules/user/domain/image.entity.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M817.96,-849.64C863.55,-845.32 926.86,-839.31 969.18,-835.3"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="969.35,-837.39 975.13,-834.73 968.96,-833.21 969.35,-837.39"/>
 </g>
-<!-- src/modules/user/domain/user.entity.ts&#45;&gt;src/libs/ddd/index.ts -->
+<!-- src/modules/user/domain/image.entity.ts&#45;&gt;src/libs/ddd/index.ts -->
 <g id="edge111" class="edge">
-<title>src/modules/user/domain/user.entity.ts&#45;&gt;src/libs/ddd/index.ts</title>
+<title>src/modules/user/domain/image.entity.ts&#45;&gt;src/libs/ddd/index.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1017.32,-840.32C1022.12,-888.35 1050.92,-1109.28 1181.5,-1203 1220.93,-1231.3 1365.87,-1187.52 1399,-1223 1412.05,-1236.97 1396.4,-1551.09 1407,-1567 1410.66,-1572.49 1416.03,-1576.62 1421.89,-1579.73"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1420.98,-1581.62 1427.32,-1582.13 1422.69,-1577.78 1420.98,-1581.62"/>
 </g>
-<!-- src/modules/user/domain/user.entity.ts&#45;&gt;src/modules/user/domain/value&#45;objects/address.value&#45;object.ts -->
+<!-- src/modules/user/domain/image.entity.ts&#45;&gt;src/modules/user/domain/value&#45;objects/address.value&#45;object.ts -->
 <g id="edge110" class="edge">
-<title>src/modules/user/domain/user.entity.ts&#45;&gt;src/modules/user/domain/value&#45;objects/address.value&#45;object.ts</title>
+<title>src/modules/user/domain/image.entity.ts&#45;&gt;src/modules/user/domain/value&#45;objects/address.value&#45;object.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1051.63,-821.5C1086.57,-810.45 1139.7,-789.1 1173.5,-754 1179.57,-747.69 1174.16,-740.77 1181.5,-736 1262.55,-683.33 1305.42,-711.75 1399,-736 1478.9,-756.7 1558.7,-817.92 1592.58,-846.28"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1590.86,-847.57 1596.79,-849.85 1593.57,-844.36 1590.86,-847.57"/>
 </g>
-<!-- src/modules/user/domain/user.types.ts -->
+<!-- src/modules/user/domain/image.types.ts -->
 <g id="node61" class="node">
-<title>src/modules/user/domain/user.types.ts</title>
-<g id="a_node61"><a xlink:href="src/modules/user/domain/user.types.ts" xlink:title="user.types.ts">
+<title>src/modules/user/domain/image.types.ts</title>
+<g id="a_node61"><a xlink:href="src/modules/user/domain/image.types.ts" xlink:title="image.types.ts">
 <path fill="#ddfeff" stroke="black" d="M1488.5,-825C1488.5,-825 1426.5,-825 1426.5,-825 1423.5,-825 1420.5,-822 1420.5,-819 1420.5,-819 1420.5,-813 1420.5,-813 1420.5,-810 1423.5,-807 1426.5,-807 1426.5,-807 1488.5,-807 1488.5,-807 1491.5,-807 1494.5,-810 1494.5,-813 1494.5,-813 1494.5,-819 1494.5,-819 1494.5,-822 1491.5,-825 1488.5,-825"/>
-<text text-anchor="start" x="1428.5" y="-813.8" font-family="Helvetica,sans-Serif" font-size="9.00">user.types.ts</text>
+<text text-anchor="start" x="1428.5" y="-813.8" font-family="Helvetica,sans-Serif" font-size="9.00">image.types.ts</text>
 </a>
 </g>
 </g>
-<!-- src/modules/user/domain/user.entity.ts&#45;&gt;src/modules/user/domain/user.types.ts -->
+<!-- src/modules/user/domain/image.entity.ts&#45;&gt;src/modules/user/domain/image.types.ts -->
 <g id="edge109" class="edge">
-<title>src/modules/user/domain/user.entity.ts&#45;&gt;src/modules/user/domain/user.types.ts</title>
+<title>src/modules/user/domain/image.entity.ts&#45;&gt;src/modules/user/domain/image.types.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1035.31,-821.6C1076.92,-800.85 1173.72,-752.79 1181.5,-751 1228.61,-740.18 1354.93,-731.15 1399,-751 1420.76,-760.8 1437.6,-783.36 1447.29,-799.13"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1445.32,-799.93 1450.16,-804.05 1448.94,-797.81 1445.32,-799.93"/>
 </g>
@@ -1433,24 +1433,24 @@
 </a>
 </g>
 </g>
-<!-- src/modules/user/domain/user.entity.ts&#45;&gt;src/modules/user/domain/events/user&#45;address&#45;updated.domain&#45;event.ts -->
+<!-- src/modules/user/domain/image.entity.ts&#45;&gt;src/modules/user/domain/events/user&#45;address&#45;updated.domain&#45;event.ts -->
 <g id="edge105" class="edge">
-<title>src/modules/user/domain/user.entity.ts&#45;&gt;src/modules/user/domain/events/user&#45;address&#45;updated.domain&#45;event.ts</title>
+<title>src/modules/user/domain/image.entity.ts&#45;&gt;src/modules/user/domain/events/user&#45;address&#45;updated.domain&#45;event.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1052.78,-834.92C1089.37,-838.88 1147.43,-845.16 1197.43,-850.56"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1197.14,-852.64 1203.33,-851.2 1197.59,-848.47 1197.14,-852.64"/>
 </g>
 <!-- src/modules/user/domain/events/user&#45;created.domain&#45;event.ts -->
 <g id="node64" class="node">
 <title>src/modules/user/domain/events/user&#45;created.domain&#45;event.ts</title>
-<g id="a_node64"><a xlink:href="src/modules/user/domain/events/user-created.domain-event.ts" xlink:title="user&#45;created.domain&#45;event.ts">
+<g id="a_node64"><a xlink:href="src/modules/user/domain/events/image-created.domain-event.ts" xlink:title="user&#45;created.domain&#45;event.ts">
 <path fill="#ddfeff" stroke="black" d="M1364,-810C1364,-810 1226,-810 1226,-810 1223,-810 1220,-807 1220,-804 1220,-804 1220,-798 1220,-798 1220,-795 1223,-792 1226,-792 1226,-792 1364,-792 1364,-792 1367,-792 1370,-795 1370,-798 1370,-798 1370,-804 1370,-804 1370,-807 1367,-810 1364,-810"/>
 <text text-anchor="start" x="1228" y="-798.8" font-family="Helvetica,sans-Serif" font-size="9.00">user&#45;created.domain&#45;event.ts</text>
 </a>
 </g>
 </g>
-<!-- src/modules/user/domain/user.entity.ts&#45;&gt;src/modules/user/domain/events/user&#45;created.domain&#45;event.ts -->
+<!-- src/modules/user/domain/image.entity.ts&#45;&gt;src/modules/user/domain/events/user&#45;created.domain&#45;event.ts -->
 <g id="edge106" class="edge">
-<title>src/modules/user/domain/user.entity.ts&#45;&gt;src/modules/user/domain/events/user&#45;created.domain&#45;event.ts</title>
+<title>src/modules/user/domain/image.entity.ts&#45;&gt;src/modules/user/domain/events/user&#45;created.domain&#45;event.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1052.78,-827.08C1092.72,-822.76 1158.26,-815.68 1210.94,-809.98"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1210.87,-812.1 1216.61,-809.37 1210.42,-807.92 1210.87,-812.1"/>
 </g>
@@ -1463,9 +1463,9 @@
 </a>
 </g>
 </g>
-<!-- src/modules/user/domain/user.entity.ts&#45;&gt;src/modules/user/domain/events/user&#45;deleted.domain&#45;event.ts -->
+<!-- src/modules/user/domain/image.entity.ts&#45;&gt;src/modules/user/domain/events/user&#45;deleted.domain&#45;event.ts -->
 <g id="edge107" class="edge">
-<title>src/modules/user/domain/user.entity.ts&#45;&gt;src/modules/user/domain/events/user&#45;deleted.domain&#45;event.ts</title>
+<title>src/modules/user/domain/image.entity.ts&#45;&gt;src/modules/user/domain/events/user&#45;deleted.domain&#45;event.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1052.78,-831C1092.78,-831 1158.44,-831 1211.17,-831"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1211.15,-833.1 1217.15,-831 1211.15,-828.9 1211.15,-833.1"/>
 </g>
@@ -1478,9 +1478,9 @@
 </a>
 </g>
 </g>
-<!-- src/modules/user/domain/user.entity.ts&#45;&gt;src/modules/user/domain/events/user&#45;role&#45;changed.domain&#45;event.ts -->
+<!-- src/modules/user/domain/image.entity.ts&#45;&gt;src/modules/user/domain/events/user&#45;role&#45;changed.domain&#45;event.ts -->
 <g id="edge108" class="edge">
-<title>src/modules/user/domain/user.entity.ts&#45;&gt;src/modules/user/domain/events/user&#45;role&#45;changed.domain&#45;event.ts</title>
+<title>src/modules/user/domain/image.entity.ts&#45;&gt;src/modules/user/domain/events/user&#45;role&#45;changed.domain&#45;event.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1046.32,-821.57C1079.15,-811.5 1133.62,-795.68 1181.5,-786 1188.95,-784.5 1196.7,-783.1 1204.5,-781.82"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1204.39,-783.97 1209.99,-780.96 1203.73,-779.82 1204.39,-783.97"/>
 </g>
@@ -1514,9 +1514,9 @@
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M456.41,-674.55C458.39,-673.19 460.26,-671.68 462,-670 475.06,-657.43 456.86,-642.49 470,-630 478.44,-621.98 489.18,-617.08 500.5,-614.22"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="500.83,-616.3 506.28,-613.03 499.98,-612.19 500.83,-616.3"/>
 </g>
-<!-- src/modules/user/commands/create&#45;user/graphql&#45;example/create&#45;user.graphql&#45;resolver.ts&#45;&gt;src/modules/user/domain/user.errors.ts -->
+<!-- src/modules/user/commands/create&#45;user/graphql&#45;example/create&#45;user.graphql&#45;resolver.ts&#45;&gt;src/modules/user/domain/image.errors.ts -->
 <g id="edge85" class="edge">
-<title>src/modules/user/commands/create&#45;user/graphql&#45;example/create&#45;user.graphql&#45;resolver.ts&#45;&gt;src/modules/user/domain/user.errors.ts</title>
+<title>src/modules/user/commands/create&#45;user/graphql&#45;example/create&#45;user.graphql&#45;resolver.ts&#45;&gt;src/modules/user/domain/image.errors.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M456.44,-675.15C458.43,-673.63 460.3,-671.92 462,-670 476.4,-653.79 454.36,-490.02 470,-475 486.79,-458.88 657.51,-467.38 679.5,-475 827.9,-526.45 960.37,-673.88 1001.42,-722.92"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="999.64,-724.05 1005.08,-727.34 1002.87,-721.38 999.64,-724.05"/>
 </g>
@@ -1586,47 +1586,47 @@
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M628.31,-493.89C645.21,-492.08 663.56,-488.57 679.5,-482 705.14,-471.44 729.58,-450.33 744.54,-435.7"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="745.84,-437.37 748.59,-431.64 742.87,-434.41 745.84,-437.37"/>
 </g>
-<!-- src/modules/user/commands/delete&#45;user/delete&#45;user.service.ts&#45;&gt;src/modules/user/database/user.repository.port.ts -->
+<!-- src/modules/user/commands/delete&#45;user/delete&#45;user.service.ts&#45;&gt;src/modules/user/database/image.repository.port.ts -->
 <g id="edge92" class="edge">
-<title>src/modules/user/commands/delete&#45;user/delete&#45;user.service.ts&#45;&gt;src/modules/user/database/user.repository.port.ts</title>
+<title>src/modules/user/commands/delete&#45;user/delete&#45;user.service.ts&#45;&gt;src/modules/user/database/image.repository.port.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M627.12,-504.49C646.04,-510.35 665.96,-519.8 679.5,-535 720.53,-581.08 749.17,-776.35 757.21,-836.97"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="755.11,-837.11 757.97,-842.79 759.27,-836.57 755.11,-837.11"/>
 </g>
-<!-- src/modules/user/database/user.repository.ts&#45;&gt;src/libs/db/sql&#45;repository.base.ts -->
+<!-- src/modules/user/database/image.repository.ts&#45;&gt;src/libs/db/sql&#45;repository.base.ts -->
 <g id="edge99" class="edge">
-<title>src/modules/user/database/user.repository.ts&#45;&gt;src/libs/db/sql&#45;repository.base.ts</title>
+<title>src/modules/user/database/image.repository.ts&#45;&gt;src/libs/db/sql&#45;repository.base.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M618.83,-848.13C640.36,-847.61 664.58,-851.5 679.5,-868 693.55,-883.54 673.27,-1229.63 687.5,-1245 761.22,-1324.64 1096.17,-1216.85 1173.5,-1293 1195.81,-1314.97 1160.25,-1340 1181.5,-1363 1193.97,-1376.51 1212.1,-1383.13 1230.17,-1386.08"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1229.78,-1388.15 1236,-1386.85 1230.33,-1383.98 1229.78,-1388.15"/>
 </g>
-<!-- src/modules/user/database/user.repository.ts&#45;&gt;src/modules/user/database/user.repository.port.ts -->
+<!-- src/modules/user/database/image.repository.ts&#45;&gt;src/modules/user/database/image.repository.port.ts -->
 <g id="edge98" class="edge">
-<title>src/modules/user/database/user.repository.ts&#45;&gt;src/modules/user/database/user.repository.port.ts</title>
+<title>src/modules/user/database/image.repository.ts&#45;&gt;src/modules/user/database/image.repository.port.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M618.53,-855C641.32,-855 669.41,-855 694.5,-855"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="694.21,-857.1 700.21,-855 694.21,-852.9 694.21,-857.1"/>
 </g>
-<!-- src/modules/user/database/user.repository.ts&#45;&gt;src/modules/user/domain/user.entity.ts -->
+<!-- src/modules/user/database/image.repository.ts&#45;&gt;src/modules/user/domain/image.entity.ts -->
 <g id="edge95" class="edge">
-<title>src/modules/user/database/user.repository.ts&#45;&gt;src/modules/user/domain/user.entity.ts</title>
+<title>src/modules/user/database/image.repository.ts&#45;&gt;src/modules/user/domain/image.entity.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M618.82,-859.32C637.67,-861.43 659.72,-864.33 679.5,-868 683.1,-868.67 683.86,-869.55 687.5,-870 758.96,-878.8 777.98,-878.34 849.5,-870 893.38,-864.88 942.52,-852.36 975.68,-842.88"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="976.08,-844.95 981.26,-841.26 974.91,-840.91 976.08,-844.95"/>
 </g>
-<!-- src/modules/user/database/user.repository.ts&#45;&gt;src/modules/user/domain/user.types.ts -->
+<!-- src/modules/user/database/image.repository.ts&#45;&gt;src/modules/user/domain/image.types.ts -->
 <g id="edge96" class="edge">
-<title>src/modules/user/database/user.repository.ts&#45;&gt;src/modules/user/domain/user.types.ts</title>
+<title>src/modules/user/database/image.repository.ts&#45;&gt;src/modules/user/domain/image.types.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M618.93,-853.56C638.52,-854.66 661.11,-858.35 679.5,-868 684.24,-870.49 682.67,-874.7 687.5,-877 705.35,-885.5 1384.25,-912.16 1399,-899 1410.68,-888.58 1396.75,-840.83 1407,-829 1408.53,-827.24 1410.26,-825.7 1412.14,-824.36"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1413.08,-826.24 1417.36,-821.54 1411.08,-822.55 1413.08,-826.24"/>
 </g>
-<!-- src/modules/user/database/user.repository.ts&#45;&gt;src/modules/user/user.mapper.ts -->
+<!-- src/modules/user/database/image.repository.ts&#45;&gt;src/modules/user/user.mapper.ts -->
 <g id="edge97" class="edge">
-<title>src/modules/user/database/user.repository.ts&#45;&gt;src/modules/user/user.mapper.ts</title>
+<title>src/modules/user/database/image.repository.ts&#45;&gt;src/modules/user/user.mapper.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M572.5,-864.28C572.5,-869.79 572.5,-875.31 572.5,-880.82"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="570.4,-890.54 572.5,-896.54 574.6,-890.54 570.4,-890.54"/>
 <polyline fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="572.5,-889.54 572.5,-886.54"/>
 <ellipse fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" cx="572.5" cy="-883.14" rx="2.4" ry="2.4"/>
 </g>
-<!-- src/modules/user/domain/user.types.ts&#45;&gt;src/modules/user/domain/value&#45;objects/address.value&#45;object.ts -->
+<!-- src/modules/user/domain/image.types.ts&#45;&gt;src/modules/user/domain/value&#45;objects/address.value&#45;object.ts -->
 <g id="edge113" class="edge">
-<title>src/modules/user/domain/user.types.ts&#45;&gt;src/modules/user/domain/value&#45;objects/address.value&#45;object.ts</title>
+<title>src/modules/user/domain/image.types.ts&#45;&gt;src/modules/user/domain/value&#45;objects/address.value&#45;object.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1494.84,-823.59C1501.9,-825.24 1509.21,-827.08 1516,-829 1536.14,-834.71 1558.33,-842.24 1576.03,-848.57"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1575.13,-850.48 1581.49,-850.54 1576.56,-846.53 1575.13,-850.48"/>
 </g>
@@ -1636,9 +1636,9 @@
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M614.48,-906.96C637.27,-908.23 664.06,-914.18 679.5,-933 690.5,-946.41 675.24,-1232.74 687.5,-1245 715.46,-1272.95 1371.03,-1235.05 1399,-1263 1410.95,-1274.94 1397.61,-1552.96 1407,-1567 1410.67,-1572.48 1416.04,-1576.61 1421.91,-1579.72"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1421,-1581.61 1427.33,-1582.12 1422.7,-1577.77 1421,-1581.61"/>
 </g>
-<!-- src/modules/user/user.mapper.ts&#45;&gt;src/modules/user/domain/user.entity.ts -->
+<!-- src/modules/user/user.mapper.ts&#45;&gt;src/modules/user/domain/image.entity.ts -->
 <g id="edge141" class="edge">
-<title>src/modules/user/user.mapper.ts&#45;&gt;src/modules/user/domain/user.entity.ts</title>
+<title>src/modules/user/user.mapper.ts&#45;&gt;src/modules/user/domain/image.entity.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M614.27,-909.4C686.84,-909.7 832.45,-908.36 849.5,-893 865.89,-878.23 841.29,-858.97 857.5,-844 887.04,-816.71 934.44,-816.48 969.44,-821.23"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="968.81,-823.26 975.06,-822.08 969.44,-819.11 968.81,-823.26"/>
 </g>
@@ -1648,9 +1648,9 @@
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M614.23,-910.54C692.01,-913.35 867.08,-919 1014.5,-919 1014.5,-919 1014.5,-919 1296,-919 1393.8,-919 1421.72,-940.01 1516,-914 1544.01,-906.27 1572.55,-888.33 1590.6,-875.46"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1591.62,-877.32 1595.22,-872.09 1589.14,-873.93 1591.62,-877.32"/>
 </g>
-<!-- src/modules/user/user.mapper.ts&#45;&gt;src/modules/user/database/user.repository.ts -->
+<!-- src/modules/user/user.mapper.ts&#45;&gt;src/modules/user/database/image.repository.ts -->
 <g id="edge140" class="edge">
-<title>src/modules/user/user.mapper.ts&#45;&gt;src/modules/user/database/user.repository.ts</title>
+<title>src/modules/user/user.mapper.ts&#45;&gt;src/modules/user/database/image.repository.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M572.5,-899.57C572.5,-894.05 572.5,-888.54 572.5,-883.03"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="574.6,-873.31 572.5,-867.31 570.4,-873.31 574.6,-873.31"/>
 <polyline fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="572.5,-874.31 572.5,-877.31"/>
@@ -1695,9 +1695,9 @@
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1382.56,-773.62C1388.75,-776.66 1394.36,-780.69 1399,-786 1413.28,-802.34 1395.08,-1548.87 1407,-1567 1410.62,-1572.51 1415.97,-1576.65 1421.84,-1579.76"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1420.93,-1581.66 1427.26,-1582.17 1422.63,-1577.82 1420.93,-1581.66"/>
 </g>
-<!-- src/modules/user/domain/events/user&#45;role&#45;changed.domain&#45;event.ts&#45;&gt;src/modules/user/domain/user.types.ts -->
+<!-- src/modules/user/domain/events/user&#45;role&#45;changed.domain&#45;event.ts&#45;&gt;src/modules/user/domain/image.types.ts -->
 <g id="edge103" class="edge">
-<title>src/modules/user/domain/events/user&#45;role&#45;changed.domain&#45;event.ts&#45;&gt;src/modules/user/domain/user.types.ts</title>
+<title>src/modules/user/domain/events/user&#45;role&#45;changed.domain&#45;event.ts&#45;&gt;src/modules/user/domain/image.types.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1378.38,-780.45C1385.42,-782.02 1392.38,-783.86 1399,-786 1411.17,-789.94 1423.87,-796.29 1434.22,-802.14"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1433.12,-803.92 1439.36,-805.14 1435.24,-800.3 1433.12,-803.92"/>
 </g>
@@ -1782,9 +1782,9 @@
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M453.82,-1108.82C456.83,-1110.82 459.59,-1113.19 462,-1116 479.73,-1136.63 451.82,-2074.78 470,-2095 500.57,-2129.01 1376.29,-2152.19 1399,-2130 1412.63,-2116.68 1399.54,-1804.54 1407,-1787 1412.98,-1772.93 1424.94,-1760.67 1435.6,-1751.81"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1436.89,-1753.47 1440.31,-1748.11 1434.3,-1750.17 1436.89,-1753.47"/>
 </g>
-<!-- src/modules/user/queries/find&#45;users/find&#45;users.graphql&#45;resolver.ts&#45;&gt;src/modules/user/database/user.repository.ts -->
+<!-- src/modules/user/queries/find&#45;users/find&#45;users.graphql&#45;resolver.ts&#45;&gt;src/modules/user/database/image.repository.ts -->
 <g id="edge126" class="edge">
-<title>src/modules/user/queries/find&#45;users/find&#45;users.graphql&#45;resolver.ts&#45;&gt;src/modules/user/database/user.repository.ts</title>
+<title>src/modules/user/queries/find&#45;users/find&#45;users.graphql&#45;resolver.ts&#45;&gt;src/modules/user/database/image.repository.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M453.78,-1095.25C456.8,-1093.21 459.57,-1090.82 462,-1088 477.98,-1069.48 453.51,-886.07 470,-868 481.94,-854.92 499.97,-850.06 517.54,-848.99"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="517.13,-851.1 523.07,-848.84 517.02,-846.91 517.13,-851.1"/>
 </g>
@@ -1812,9 +1812,9 @@
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M641.31,-1068.99C655.78,-1071.52 669.64,-1077.12 679.5,-1088 686.7,-1095.95 685.93,-1270.38 687.5,-1281 731.81,-1581.52 633.03,-1738.33 857.5,-1943 902.16,-1983.72 1355.45,-2036.91 1399,-1995 1415.67,-1978.96 1397.79,-1808.22 1407,-1787 1413.08,-1772.98 1425.05,-1760.72 1435.69,-1751.85"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1436.97,-1753.51 1440.38,-1748.14 1434.37,-1750.21 1436.97,-1753.51"/>
 </g>
-<!-- src/modules/user/queries/find&#45;users/find&#45;users.query&#45;handler.ts&#45;&gt;src/modules/user/database/user.repository.ts -->
+<!-- src/modules/user/queries/find&#45;users/find&#45;users.query&#45;handler.ts&#45;&gt;src/modules/user/database/image.repository.ts -->
 <g id="edge137" class="edge">
-<title>src/modules/user/queries/find&#45;users/find&#45;users.query&#45;handler.ts&#45;&gt;src/modules/user/database/user.repository.ts</title>
+<title>src/modules/user/queries/find&#45;users/find&#45;users.query&#45;handler.ts&#45;&gt;src/modules/user/database/image.repository.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M503.5,-1068.68C486.26,-1063.57 471.18,-1054.09 466,-1037 460.75,-1019.67 460.75,-891.33 466,-874 472.29,-853.21 494.64,-847.33 517.24,-847.13"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="517.15,-849.22 523.19,-847.26 517.24,-845.02 517.15,-849.22"/>
 </g>
@@ -1842,9 +1842,9 @@
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M449.95,-1078.25C454.49,-1080.75 458.6,-1083.95 462,-1088 478.62,-1107.81 451.63,-2000.79 470,-2019 529.89,-2078.38 785.72,-2074.17 849.5,-2019 868.18,-2002.84 839.36,-1980.77 857.5,-1964 883.33,-1940.11 1138.48,-1946.48 1173.5,-1943 1175.28,-1942.82 1208.82,-1938.37 1240.07,-1934.2"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1240.12,-1936.31 1245.79,-1933.44 1239.57,-1932.15 1240.12,-1936.31"/>
 </g>
-<!-- src/modules/user/queries/find&#45;users/find&#45;users.http.controller.ts&#45;&gt;src/modules/user/database/user.repository.ts -->
+<!-- src/modules/user/queries/find&#45;users/find&#45;users.http.controller.ts&#45;&gt;src/modules/user/database/image.repository.ts -->
 <g id="edge129" class="edge">
-<title>src/modules/user/queries/find&#45;users/find&#45;users.http.controller.ts&#45;&gt;src/modules/user/database/user.repository.ts</title>
+<title>src/modules/user/queries/find&#45;users/find&#45;users.http.controller.ts&#45;&gt;src/modules/user/database/image.repository.ts</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M449.73,-1069.38C454.32,-1067.01 458.5,-1063.94 462,-1060 476.19,-1044.04 455.56,-883.73 470,-868 481.97,-854.95 500.01,-850.09 517.58,-849.03"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="517.17,-851.14 523.11,-848.87 517.05,-846.94 517.17,-851.14"/>
 </g>

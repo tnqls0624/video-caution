@@ -1,7 +1,7 @@
 import { PaginatedQueryParams, RepositoryPort } from '@libs/ddd';
-import { UserEntity } from '../domain/user.entity';
 import { Prisma } from '@prisma/client';
 import { Option } from 'oxide.ts';
+import { UserEntity } from '@modules/user/domain/user.entity';
 
 export interface FindUsersParams extends PaginatedQueryParams {
   readonly country?: string;
