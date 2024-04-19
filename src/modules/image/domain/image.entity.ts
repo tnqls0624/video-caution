@@ -15,6 +15,7 @@ export class ImageEntity extends AggregateRoot<ImageProps> {
     const id = randomUUID();
     /* Setting a default role since we are not accepting it during creation. */
     const props: ImageProps = { ...create };
+
     const image = new ImageEntity({ id, props });
     /* adding "UserCreated" Domain Event that will be published
     eventually so an event handler somewhere may receive it and do an
@@ -24,6 +25,7 @@ export class ImageEntity extends AggregateRoot<ImageProps> {
         aggregateId: id,
         src: props.src,
         hash: props.hash,
+        tags: props.tags,
       }),
     );
     return image;

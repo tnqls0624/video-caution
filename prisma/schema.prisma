@@ -34,6 +34,7 @@ model images {
   id        String    @id
   src       String
   hash      String
+  tags      String
   createdAt DateTime  @default(now())
   updatedAt DateTime  @default(now()) @updatedAt
   removedAt DateTime?

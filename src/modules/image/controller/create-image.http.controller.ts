@@ -1,5 +1,4 @@
 import {
-  Body,
   ConflictException as ConflictHttpException,
   Controller,
   HttpStatus,
@@ -20,10 +19,8 @@ import { CreateImageCommand } from '@modules/image/commands/create-image/create-
 import { CreateImageRequestDto } from '../dtos/create-image.request.dto';
 import { UserAlreadyExistsError } from '@modules/user/domain/user.errors';
 import { IdResponse } from '@libs/api/id.response.dto';
-import { AggregateID } from '@libs/ddd';
 import { ApiErrorResponse } from '@libs/api/api-error.response';
 import { FastifyRequest } from 'fastify';
-import { ResponseBase } from '@libs/api/response.base';
 
 @ApiTags('images')
 @Controller(routesV1.version)
@@ -57,24 +54,21 @@ export class CreateImageHttpController {
       filename: data?.filename as string,
       buffer: buffer as Buffer,
     });
-    const result: Result<AggregateID, UserAlreadyExistsError> =
+    const result: Result<any, UserAlreadyExistsError> =
       await this.commandBus.execute(command);
-    console.log(result);
+
     // Deciding what to do with a Result (similar to Rust matching)
     // if Ok we return a response with an id
     // if Error decide what to do with it depending on its type
     return match(result, {
       Ok: (props: any) => {
         return {
-          // ...new IdResponse(id),
           tags: props.tags,
-          url: props.url,
+          url: props.src,
         };
       },
       Err: (error: Error) => {
-        if (error instanceof UserAlreadyExistsError)
-          throw new ConflictHttpException(error.message);
-        throw error;
+        throw new ConflictHttpException(error.message);
       },
     });
   }

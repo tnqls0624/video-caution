@@ -26,6 +26,7 @@ export class ImageMapper
       updatedAt: copy.updatedAt,
       src: copy.src,
       hash: copy.hash,
+      tags: copy.tags,
     };
     return imageSchema.parse(record);
   }
@@ -38,6 +39,7 @@ export class ImageMapper
       props: {
         src: record.src,
         hash: record.hash,
+        tags: record.tags,
       },
     });
   }

@@ -402,7 +402,7 @@
 <!-- src/modules/user/user.di&#45;tokens.ts -->
 <g id="node51" class="node">
 <title>src/modules/user/user.di&#45;tokens.ts</title>
-<g id="a_node51"><a xlink:href="src/modules/user/user.di-tokens.ts" xlink:title="user.di&#45;tokens.ts">
+<g id="a_node51"><a xlink:href="src/modules/user/image.di-tokens.ts" xlink:title="user.di&#45;tokens.ts">
 <path fill="#ddfeff" stroke="black" d="M799.5,-429C799.5,-429 721.5,-429 721.5,-429 718.5,-429 715.5,-426 715.5,-423 715.5,-423 715.5,-417 715.5,-417 715.5,-414 718.5,-411 721.5,-411 721.5,-411 799.5,-411 799.5,-411 802.5,-411 805.5,-414 805.5,-417 805.5,-417 805.5,-423 805.5,-423 805.5,-426 802.5,-429 799.5,-429"/>
 <text text-anchor="start" x="723.5" y="-417.8" font-family="Helvetica,sans-Serif" font-size="9.00">user.di&#45;tokens.ts</text>
 </a>

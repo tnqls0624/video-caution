@@ -5,9 +5,12 @@ export class ImageCreatedDomainEvent extends DomainEvent {
 
   readonly hash: string;
 
+  readonly tags: string;
+
   constructor(props: DomainEventProps<ImageCreatedDomainEvent>) {
     super(props);
     this.src = props.src;
     this.hash = props.hash;
+    this.tags = props.tags;
   }
 }

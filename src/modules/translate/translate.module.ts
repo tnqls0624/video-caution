@@ -3,7 +3,7 @@ import { Injectable, Module } from '@nestjs/common';
 
 @Injectable()
 export class TranslateGeneratorImplement implements TranslateGenerator {
-  gcp: Translate;
+  private gcp: Translate;
 
   constructor() {
     this.gcp = new Translate({
@@ -26,9 +26,9 @@ export class TranslateGeneratorImplement implements TranslateGenerator {
 }
 
 export interface TranslateGenerator {
-  gcpTranslate: (word: string) => Promise<string>;
-  isEnglishText: (word: string) => boolean;
-  capitalizeFirstLetter: (word: string) => string;
+  gcpTranslate(word: string): Promise<string>;
+  isEnglishText(word: string): boolean;
+  capitalizeFirstLetter(word: string): string;
 }
 
 export const TRANSLATE_GENERATOR = 'TRANSLATE_GENERATOR';

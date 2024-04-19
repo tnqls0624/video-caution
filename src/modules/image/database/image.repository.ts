@@ -21,6 +21,7 @@ export const imageSchema = z.object({
   updatedAt: z.preprocess((val: any) => new Date(val), z.date()),
   src: z.string(),
   hash: z.string(),
+  tags: z.string(),
 });
 
 export type ImageModel = z.TypeOf<typeof imageSchema>;
@@ -114,5 +115,13 @@ export class ImageRepository
       }
       throw error;
     }
+  }
+
+  async findByHash(hash: string): Promise<ImageModel> {
+    return (await this.prisma.images.findFirst({
+      where: {
+        hash,
+      },
+    })) as ImageModel;
   }
 }
