@@ -4,15 +4,12 @@ import {
   OnGatewayConnection,
   OnGatewayDisconnect,
   OnGatewayInit,
-  SubscribeMessage,
+  // SubscribeMessage,
   WebSocketGateway,
   WebSocketServer,
 } from '@nestjs/websockets';
 import { Logger } from '@nestjs/common';
 import { Server, Socket } from 'socket.io';
-import * as tf from '@tensorflow/tfjs-node';
-import * as cocoSsd from '@tensorflow-models/coco-ssd';
-import { Tensor3D } from '@tensorflow/tfjs';
 
 @WebSocketGateway({
   cors: { origin: '*' },
@@ -41,27 +38,5 @@ export class EventGateway
 
   handleDisconnect(@ConnectedSocket() client: Socket): void {
     this.logger.debug(`${client.id}가 연결이 끊겼습니다`);
-  }
-
-  @SubscribeMessage('image')
-  async onImage(
-    @ConnectedSocket() client: Socket,
-    message: { data: Buffer },
-  ): Promise<void> {
-    try {
-      const image = tf.node.decodeImage(
-        new Uint8Array(message.data),
-        3,
-        'int32',
-        true,
-      );
-      const model = await cocoSsd.load();
-      const predictions = await model.detect(image as Tensor3D);
-      client.send(JSON.stringify(predictions));
-      tf.dispose(image);
-    } catch (error: any) {
-      console.error('Error processing image:', error);
-      client.send(JSON.stringify({ error: error.message }));
-    }
   }
 }

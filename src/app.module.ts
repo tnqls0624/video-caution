@@ -8,7 +8,6 @@ import { ContextInterceptor } from '@libs/application/context/ContextInterceptor
 import { ExceptionInterceptor } from '@libs/application/interceptors/exception.interceptor';
 import { PrismaModule } from '@libs/db/prisma.module';
 import { EventModule } from '@modules/event/event.module';
-import { ImageModule } from '@modules/image/image.module';
 
 const interceptors = [
   {
@@ -30,7 +29,6 @@ const interceptors = [
 
     // Modules
     UserModule,
-    ImageModule,
     EventModule,
   ],
   controllers: [],
